@@ -1,0 +1,29 @@
+using System;
+public class n3 
+{
+  static void Main() 
+  {
+
+      Console.Write("Введите свое число: ");
+      int n = Convert.ToInt32(Console.ReadLine());
+      
+      while (n!=1)
+      {
+          if ((n%2 == 0))
+          {
+               n=n/2;
+              Console.WriteLine(n);
+          }
+          else
+          {
+              n=n*3;
+              n=n+1;
+              Console.WriteLine(n);
+             
+          }
+      }
+          
+
+  }
+    
+}
